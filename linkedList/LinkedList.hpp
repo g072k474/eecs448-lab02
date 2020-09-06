@@ -122,6 +122,7 @@ bool LinkedList<T>::removeBack()
          {
           m_front=nullptr;
          }
+        }
        	return(isRemoved);
 }	
 
